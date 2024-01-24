@@ -1,5 +1,7 @@
 function solution(spell, dic) {
-  spell = spell.sort().join('')
-  const result = dic.map(el=> el.split('').sort().join('')).find(el => el===spell) !== undefined ? 1 : 2;
-  return result
+  const isSameExist = dic.filter(str => str.length === spell.length).map(el => el.split('').sort().join(''));
+  
+  if(isSameExist === spell.sort().join('')){
+    return 1
+  }else return 2
 }

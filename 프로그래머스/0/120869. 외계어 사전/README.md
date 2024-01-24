@@ -1,6 +1,6 @@
 # [level 0] 외계어 사전 - 120869 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120869) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120869#qna) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 3일 12:5:14
+2024년 1월 3일 12:5:22
 
 ### 문제 설명
 
