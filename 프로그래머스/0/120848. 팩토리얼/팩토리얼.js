@@ -1,14 +1,15 @@
 function solution(n) {
-    var answer = 1;
-    var result = 0;
+    var result = 1;
+    var count = 0;
     
     while(true){
-        result++
-        answer = answer * result
-        if(answer > n){
+        count++
+        result = result * count
+        
+        if(result > n){
             break;
         }
     }
     
-    return result-1
+    return count-1
 }
